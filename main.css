@@ -1,0 +1,75 @@
+body {
+    font-family: 'Roboto' , sans-serif;
+    background-color: rgba(0, 0, 0, 0.938);
+    color:#fff;
+}
+
+.navbar {
+    background-color: black;    
+}
+
+.navbar-brand {            
+    cursor: pointer;
+}
+
+.nav .nav-link {
+    color:rgb(166, 87, 240);                
+}
+
+.navbar-brand:hover ,
+.nav .nav-link:hover {
+    color:rgb(166, 87, 240);    
+    text-shadow: 0 0 25px rgb(166, 87, 240);
+    transition: all 300ms ease-in-out;        
+}
+
+.nav .nav-link.active,
+#fale-conosco button {
+    background-color: rgb(166, 87, 240);    
+}
+
+.nav .nav-link.active:hover {
+    color: #fff;
+    text-shadow: 0 0 25px rgb(166, 87, 240);
+    box-shadow: 0 0 25px rgb(166, 87, 240), inset 0 0 25px rgb(166, 87, 240);
+    transition: all 300ms ease-in-out;
+}
+
+.navbar-toggler {
+    background-color: #a657f0;
+}
+
+.section-title {
+    color:rgb(166, 87, 240);
+    font-family: 'Lobster' , sans-serif;
+}
+
+.section-title span {
+    color: #fff;
+}
+
+#events {
+    background-color: #a657f03d;
+}
+
+.tab-content {
+    background-color: #a657f03d;    
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+
+    .carousel-item img {
+        height: 280px;
+    }
+}
